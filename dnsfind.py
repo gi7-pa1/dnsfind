@@ -51,7 +51,7 @@ for i in range(0,len(asc_pings)):
 		if asc_pings[i] == output_pings[k]:
 			f_table.add_row([i+1,output_names[k],(dns_servers[output_names[k]])[0],(dns_servers[output_names[k]])[1],asc_pings[i]])
 print(f_table)
-print(non_reachable)
+print("NON-Reachable Servers :",f'{RED}{non_reachable}{RESET}')
 print("Thanks for Using !!")
 print("P.S.: This test only hands you the latencies not a detailed specification about the actual benefits using one DNS resolver over the other !")
 
