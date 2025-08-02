@@ -53,5 +53,5 @@ for i in range(0,len(asc_pings)):
 print(f_table)
 print(non_reachable)
 print("Thanks for Using !!")
-print("P.S.: This test only hands you the latencies not a detailed specification about the actual benfits using one DNS resolver over the other !")
+print("P.S.: This test only hands you the latencies not a detailed specification about the actual benefits using one DNS resolver over the other !")
 
